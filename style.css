@@ -1,0 +1,50 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.hembody{
+	background-image: url("img/vitbg.jpg");
+}
+
+.galleribody{
+	background-image: url("img/stenar.jpg");
+	background-color: rgba(0,0,0,0.1);
+}
+
+a{
+	font-size: 25px;
+}
+/*sätts på alla huvudrubriker*/
+.huvudrubrik{
+	text-align: center;
+	font-size: 100px;
+	text-shadow: 6px 4px #E80C94;
+	font-family: impact;
+}
+
+.hemrubrik{
+	font-size: 150px;
+}
+
+.gallerirubrik{
+	color:#ced1f5;
+}
+
+.bilder{
+	width: 300px;
+}
+
+.startpics{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+/*.starttext{
+	background-color: black;
+	color:white;
+}*/
+p{
+	font-size: 28px;
+	font-family: verdana;
+}
+
