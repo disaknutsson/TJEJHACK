@@ -1,19 +1,21 @@
+/*ALLA*/
 html{
 	scroll-behavior: smooth;
-}
-
-.hembody{
-	background-image: url("img/vitbg.jpg");
-}
-
-.galleribody{
-	background-image: url("img/stenar.jpg");
-	background-color: rgba(0,0,0,0.1);
 }
 
 a{
 	font-size: 25px;
 }
+
+.bilder{
+	width: 300px;
+}
+
+p{
+	font-size: 28px;
+	font-family: verdana;
+}
+
 /*sätts på alla huvudrubriker*/
 .huvudrubrik{
 	text-align: center;
@@ -22,16 +24,13 @@ a{
 	font-family: impact;
 }
 
+/*INDEX*/
+.hembody{
+	background-image: url("img/vitbg.jpg");
+}
+
 .hemrubrik{
 	font-size: 150px;
-}
-
-.gallerirubrik{
-	color:#ced1f5;
-}
-
-.bilder{
-	width: 300px;
 }
 
 .startpics{
@@ -39,12 +38,28 @@ a{
 	padding-bottom: 40px;
 }
 
+/*GALLER*/
+.galleribody{
+	background-image: url("img/stenar.jpg");
+	background-color: rgba(0,0,0,0.1);
+}
+
+.gallerirubrik{
+	color:#ced1f5;
+}
+
+/*MATERIAL*/
+
+/*KONTAKT*/
+
+
+
+
 /*.starttext{
 	background-color: black;
 	color:white;
 }*/
-p{
-	font-size: 28px;
-	font-family: verdana;
-}
 
+
+/*GLÖM INTE ATT ATLLA TJEJHACKSFÄRGER SKA VARA SAMLADE PÅ ETT STÄLLE SEDAN, JUST NU FINNS DET BARA PÅ ETT STÄLLE: CLASS="HUVUDRUBRIK"*/
+/*Rad 21*/
