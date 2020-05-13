@@ -32,29 +32,68 @@
 
   <div class="container startpics">
     <div class="row">
-    <div class="col-sm-4">
-       <img class="bilder" src="img/coder.jpg">
-        <img class="bilder" src="img/coolcode.jpg">
-         <img class="bilder" src="img/girllight4.jpg">
-      </div>
-      <div class="col-sm-4 starttext">
-        <p>Tjejhack Ronneby genomfördes första gången våren 2018 för alla tjejer som går årskurs sju på skolorna i Ronneby kommun.<br><br> Det är elever som går Teknikprogrammet på Gymnasieskolan Knut Hahn som arrangerar tjejhacket. <br><br>Syftet är att tjejer i lugn och ro ska få prova på att programmera. Planen är att tjejhack ska bli något vi genomför varje år.</p>
-      </div>
       <div class="col-sm-4">
-         <img class="bilder" src="img/code.jpg">
-        <img class="bilder" src="img/keyboard.jpg">
-         <img class="bilder" src="img/yulelovethis.jpg">
-      </div>
+       <img class="bilder" src="img/coder.jpg">
+       <img class="bilder" src="img/coolcode.jpg">
+       <img class="bilder" src="img/girllight4.jpg">
+     </div>
+     <div class="col-sm-4 starttext">
+      <p>Tjejhack Ronneby genomfördes första gången våren 2018 för alla tjejer som går årskurs sju på skolorna i Ronneby kommun.<br><br> Det är elever som går Teknikprogrammet på Gymnasieskolan Knut Hahn som arrangerar tjejhacket. <br><br>Syftet är att tjejer i lugn och ro ska få prova på att programmera. Planen är att tjejhack ska bli något vi genomför varje år.</p>
+    </div>
+    <div class="col-sm-4">
+     <img class="bilder" src="img/code.jpg">
+     <img class="bilder" src="img/keyboard.jpg">
+     <img class="bilder" src="img/yulelovethis.jpg">
+   </div>
+ </div>
+</div>
+
+<div class="container">
+
+  <form id="quiz" class="quiz">
+    <div class="row">
+      <div class="col-md-4">
+       <h5>Programspråket Python har fått sitt namn från...</h5>
+       <input type="radio" id="mc" name="question1" value="ormen">1. Ormen<br>
+       <input type="radio" id="mc" name="question1" value="montypython">2. Monthy Python<br>
+       <input type="radio" id="mc" name="question1" value="lukten">3. Lukten<br><br>
+       <input type="button" class="btn btn-danger" id="button" value="KLAR" onclick="check();"><br><br>
+
+     </div>
+     <div class="col-md-4">
+      <h5>Vilket bibliotek använder man när man ritar med Python?</h5>
+      <input type="radio" id="mc" name="question2" value="turtle">1. Turtle<br>
+      <input type="radio" id="mc" name="question2" value="paint">2. Paint<br>
+      <input type="radio" id="mc" name="question2" value="draw">3. Draw<br>
+    </div>
+    <div class="col-md-4">
+      <h5>Vilken typ av programmering gör man med Python?</h5>
+      <input type="radio" id="mc" name="question3" value="blockp">1. Blockprogrammering<br>
+      <input type="radio" id="mc" name="question3" value="textp">2. Textprogrammering<br>
+      <input type="radio" id="mc" name="question3" value="analogp">3. Analog programmering<br>
     </div>
   </div>
+</form>
+</div>
+
+<div class="container" id="after_submit">
+
+  <p id="meddelande"></p>
+  <p id="number_correct"></p>
+  </div>
+
+  <br><br><br>
 
 
 
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script type="text/javascript" src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
