@@ -14,6 +14,7 @@ function check() {
 	}
 	if(question3 == "textp"){
 		correct++;
+	}
 
 var meddelanden = ["Du fick tyvärr inga rätt :(", "Du fick ett rätt!", "Du fick två rätt!", "Du fick tre rätt! Bra jobbat!"];
 
