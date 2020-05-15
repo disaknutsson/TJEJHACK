@@ -13,7 +13,32 @@ a{
 
 p{
 	font-size: 28px;
-	font-family: verdana;
+	font-family: impact;
+}
+
+.impactfont{
+	font-family: impact;
+}
+
+/*Här står s:et för skugga*/
+.s1{
+	box-shadow: 5px 5px #BADEFC;
+}
+
+.s2{
+	box-shadow: 5px 5px #23CE6B;
+}
+
+.s3{
+	box-shadow: 5px 5px #DB6C79;
+}
+
+.s4{
+	box-shadow: 5px 5px #5DFDCB;
+}
+
+.vitbakgrund{
+	background-color: white;
 }
 
 /*sätts på alla huvudrubriker*/
@@ -48,10 +73,50 @@ p{
 	color:#ced1f5;
 }
 
+.svtbild{
+	width: 540px;
+}
+
+
+
 /*MATERIAL*/
+.materialbody{
+	background-image: url("img/glitter.jpg");
+
+}
+.materialrubrik{
+	color:white;
+}
+
+.padding1{
+	padding: 150px;
+}
+.padding2{
+	padding:130px;
+}
+h3{
+	font-size: 30px;
+}
+
+.tjejhackloggan{
+	width: 355px;
+}
+
+.pythonloggan{
+	width: 400px;
+}
 
 /*KONTAKT*/
-
+.kontaktbody{
+	background-image: url("img/cool.jpg");
+}
+.bildkontakt{
+	width: 100px
+}
+.kontaktpadding{
+	padding-top: 30px;
+	padding-left: 30px;
+}
 
 
 

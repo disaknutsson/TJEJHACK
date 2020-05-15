@@ -21,27 +21,27 @@ var meddelanden = ["Du fick tyvärr inga rätt :(", "Du fick ett rätt!", "Du fi
 
 var range;
 
-if(correct = 0){
+if(correct == 0){
 	range=0;
 }
 
-if(correct = 1){
+if(correct == 1){
 	range=1;
 }
 
-if(correct = 2){
+if(correct == 2){
 	range=2;
 }
 
-if(correct = 3){
+if(correct == 3){
 	range=3;
 }
 	
 	document.getElementById("after_submit").style.visibility="visible";
 
 	document.getElementById("meddelande").innerHTML=meddelanden[range];
-	document.getElementById("number_correct").innerHTML = "Du  fick " + correct + " rätt.";
-	document.getElementById("bilden").src=bilder[range];
+
+	// document.getElementById("bilden").src=bilder[range];
 }
 
 
