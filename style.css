@@ -1,6 +1,6 @@
 /*ALLA*/
 html{
-	scroll-behavior: smooth;
+	margin-top: 70px;
 }
 
 a{
@@ -81,7 +81,7 @@ p{
 
 /*MATERIAL*/
 .materialbody{
-	background-image: url("img/glitter.jpg");
+	background-image: url("img/blue.jpg");
 
 }
 .materialrubrik{
@@ -120,11 +120,8 @@ h3{
 
 
 
-/*.starttext{
-	background-color: black;
-	color:white;
-}*/
+
 
 
 /*GLÖM INTE ATT ATLLA TJEJHACKSFÄRGER SKA VARA SAMLADE PÅ ETT STÄLLE SEDAN, JUST NU FINNS DET BARA PÅ ETT STÄLLE: CLASS="HUVUDRUBRIK"*/
-/*Rad 21*/
+/*Rad 48*/
